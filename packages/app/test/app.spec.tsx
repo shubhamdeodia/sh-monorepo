@@ -1,6 +1,6 @@
 import { renderToString } from 'react-dom/server';
 import * as React from "react"
-import { App } from '@efee/app';
+import {App} from "../src"
 
 describe('<App />', () => {
     it('renders without throwing on the server', () => {
