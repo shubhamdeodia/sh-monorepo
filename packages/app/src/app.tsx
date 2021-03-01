@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { Main } from '@efee/components';
+import * as React from "react"
+import { Main } from "@efee/components"
 
 export interface AppProps {
-    text: string;
+    text: string
 }
 
-export const App: React.VFC<AppProps> = ({ text }) => <Main text={text} />;
+export const App: React.VFC<AppProps> = ({ text }) => <Main text={text} />

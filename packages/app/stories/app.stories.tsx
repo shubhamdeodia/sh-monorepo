@@ -1,14 +1,10 @@
-import * as React from 'react';
+import * as React from "react"
 
-
-import {App} from '../src';
+import { App } from "../src"
 
 export default {
-  title: 'Example/App',
-  component: App,
-} 
+    title: "Example/App",
+    component: App,
+}
 
-
-export const Basic = () => (
-    <App text="Hey there" />
-)
+export const Basic = () => <App text="Hey there" />

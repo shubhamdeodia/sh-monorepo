@@ -11,7 +11,7 @@
     "build:esm": "cross-env BABEL_ENV=esm babel src --root-mode upward --extensions .ts,.tsx -d dist/esm --source-maps",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --root-mode upward --extensions .ts,.tsx -d dist/cjs --source-maps",
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
-    "lint": "eslint src --ext js,ts,jsx,tsx",
+    "lint": "eslint src --ext js,ts,jsx,tsx --fix",
     "clean": "rimraf dist *.tsbuildinfo",
     "test": "jest ./test"
   },
@@ -20,7 +20,7 @@
     "react-dom": ">=17"
   },
   "dependencies": {
-    "sanitize.css": "^12.0.1"
+    "@efee/components": "^0.0.1"
   },
   "files": [
     "dist",
