@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Main } from "@efee/components"
+import { Main } from "@sh/components"
 
 export interface AppProps {
     text: string

@@ -1,5 +1,5 @@
 {
-  "name": "efee-monorepo",
+  "name": "sh-monorepo",
   "version": "0.0.1",
   "workspaces": [
     "packages/*"
