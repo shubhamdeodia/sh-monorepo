@@ -1,6 +1,6 @@
 {
   "name": "@sh/components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
@@ -14,7 +14,6 @@
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
     "lint": "eslint src --ext js,ts,jsx,tsx --fix",
     "clean": "rimraf dist *.tsbuildinfo"
- 
   },
   "peerDependencies": {
     "react": ">=17"
