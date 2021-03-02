@@ -1,6 +1,6 @@
 {
   "name": "@sh/components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
@@ -29,5 +29,6 @@
   "private": false,
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "978f54c8bbbe4e5e88b9ce58b22d56e69a3ca8b8"
 }
