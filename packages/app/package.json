@@ -1,6 +1,6 @@
 {
   "name": "@sh/app",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
@@ -20,7 +20,7 @@
     "react-dom": ">=17"
   },
   "dependencies": {
-    "@sh/components": "0.0.5"
+    "@sh/components": "0.0.6"
   },
   "files": [
     "dist",
@@ -36,5 +36,5 @@
   "devDependencies": {
     "@sh/components": "^0.0.1"
   },
-  "gitHead": "0b172272844f6d089fe06b2fadce74dc9d5281c7"
+  "gitHead": "825f15f275767de767d939a441865ebcd3c2b0d6"
 }
