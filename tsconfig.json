@@ -20,7 +20,7 @@
     "allowSyntheticDefaultImports": true,
     "downlevelIteration": true
   },
-  "include": ["packages", "packages/**/*", "babel.config.js"],
+  "include": ["packages", "packages/**/*", "babel.config.js", ".eslintrc.js"],
   "exclude": ["node_modules"],
   "ts-node": {
     "compilerOptions": {
