@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sh",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "my custom eslint config",
   "main": "./src/index.js",
   "scripts": {
@@ -27,5 +27,5 @@
     "eslint-plugin-testing-library": "3.9.2",
     "prettier": "^2.2.1"
   },
-  "gitHead": "978f54c8bbbe4e5e88b9ce58b22d56e69a3ca8b8"
+  "gitHead": "0b172272844f6d089fe06b2fadce74dc9d5281c7"
 }
