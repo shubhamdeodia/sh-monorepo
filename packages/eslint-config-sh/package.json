@@ -26,5 +26,6 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-testing-library": "3.9.2",
     "prettier": "^2.2.1"
-  }
+  },
+  "gitHead": "71e537275ed4194ccc861633ccf91c1618f26d81"
 }
